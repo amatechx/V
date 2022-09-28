@@ -1,13 +1,16 @@
+  <Br></Br>
 cd YouTube-Viewer
+  <Br></Br>
 python3 -m pip install --upgrade pip wheel
 <Br></Br>
 pip3 install "setuptools<59"
   <Br></Br>
 pip3 install -r requirements.txt
-  <Br>
-</Br>
+  <Br></Br>
 ps aux | awk '/chrome/ { print $2 } ' | xargs kill -9
+  <Br></Br>
 python3 V.py
+  <Br></Br>
 https://www.sslproxies.org/
 
 <Br></Br>
