@@ -34,7 +34,7 @@ print(bcolors.OKGREEN + """
 """ + bcolors.ENDC)
 
 print(bcolors.OKCYAN + """
-[ GitHub : https://youtube.com/amatechx/V]
+[ GitHub : https://youtube.com/amatechx3]
 """ + bcolors.ENDC)
 
 print(bcolors.WARNING + f"""
@@ -669,10 +669,10 @@ def main_viewer(proxy_type, proxy, position):
 
         try:
             print(timestamp() + bcolors.OKBLUE + f"Worker {position} | " + bcolors.OKGREEN +
-                  f"{proxy} | {proxy_type.upper()} | Good Proxy | Opening a new driver..." + bcolors.ENDC)
+                  f"{proxy} | {proxy_type.upper()} | Alus proxy | Muka supir anyar...." + bcolors.ENDC)
 
-            create_html({"#3b8eea": f"Worker {position} | ",
-                        "#23d18b": f"{proxy.split('@')[-1]} | {proxy_type.upper()} | Good Proxy | Opening a new driver..."})
+            create_html({"#ff33cc": f"Worker {position} | ",
+                        "#ff33cc": f"{proxy.split('@')[-1]} | {proxy_type.upper()} |Alus proxy | Muka supir anyar..."})
 
             while proxy in bad_proxies:
                 bad_proxies.remove(proxy)
@@ -720,7 +720,7 @@ def main_viewer(proxy_type, proxy, position):
                       f"Worker {position} | Bypassing consent..." + bcolors.ENDC)
 
                 create_html(
-                    {"#3b8eea": f"Worker {position} | Bypassing consent..."})
+                    {"#ff33cc": f"Worker {position} | Bypassing consent..."})
 
                 bypass_consent(driver)
 
@@ -799,7 +799,7 @@ def get_proxy_list():
 
 def stop_server(immediate=False):
     if not immediate:
-        print('Allowing a maximum of 15 minutes to finish all the running drivers...')
+        print('Ngidinan maksimal 15 menit pikeun ngabéréskeun sadaya supir anu ngajalankeun...')
         for _ in range(180):
             sleep(5)
             if 'state=running' not in str(futures[1:-1]):
@@ -980,7 +980,7 @@ def main():
 
 if __name__ == '__main__':
 
-    clean_exe_temp(folder='ama')
+    clean_exe_temp(folder='V')
     date_fmt = datetime.now().strftime("%d-%b-%Y %H:%M:%S")
     cpu_usage = str(psutil.cpu_percent(1))
     update_chrome_version()
