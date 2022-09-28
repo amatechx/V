@@ -1,13 +1,16 @@
 cd YouTube-Viewer
 python3 -m pip install --upgrade pip wheel
+<Br></Br>
 pip3 install "setuptools<59"
+  <Br></Br>
 pip3 install -r requirements.txt
-<Br>
+  <Br>
+</Br>
 ps aux | awk '/chrome/ { print $2 } ' | xargs kill -9
 python3 V.py
 https://www.sslproxies.org/
 
-<Br>
+<Br></Br>
 referers = [
 'https://amatechx3.blogspot.com/'
 ,'https://duckduckgo.com/'
