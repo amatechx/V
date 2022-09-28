@@ -34,7 +34,7 @@ print(bcolors.OKGREEN + """
 """ + bcolors.ENDC)
 
 print(bcolors.OKCYAN + """
-[ GitHub : https://youtube.com/amatechx3]
+[ GitHub : https://youtube.com/amatechx/V]
 """ + bcolors.ENDC)
 
 print(bcolors.WARNING + f"""
